@@ -20,7 +20,7 @@ function Education() {
             <img
               src={`Clg_logo/${item.img_name}.png`}
               alt="Clg_logo"
-              className='w-24 h-24 md:w-28 md:h-28 object-contain'
+              className='w-24 h-24 md:w-28 md:h-28'
             />
           </div>
 

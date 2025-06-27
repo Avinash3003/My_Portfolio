@@ -1,32 +1,3 @@
-// import React from 'react'
-// import { projects } from '../ChildComponents/data'
-// import ProjectsChild from '../ChildComponents/ProjectsChild'
-// import Header from './Header'
-
-// function Projects() {
-//   return (
-//     <div className='bg-gray-200 px-20 py-10'>
-//         <Header/>
-//         <h2 className='font-mono font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600  to-red-600 text-center text-4xl  my-5'>Hands-on Projects</h2>
-
-//         <div className='grid grid-cols-3 gap-10'>
-
-//             {
-//                 projects.map((item)=> <ProjectsChild key={item.name} data={item} />)
-
-//             }
-
-
-//         </div>
-
-
-
-//     </div>
-//   )
-// }
-
-// export default Projects
-
 
 import React from 'react';
 import { projects } from '../ChildComponents/data';
