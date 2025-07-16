@@ -1,3 +1,16 @@
+// import withMT from "@material-tailwind/react/utils/withMT";
+
+// export default withMT({
+//   content: [
+//     "./index.html",
+//     "./src/**/*.{js,ts,jsx,tsx}",
+//   ],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [],
+// });
+
 import withMT from "@material-tailwind/react/utils/withMT";
 
 export default withMT({
@@ -5,8 +18,6 @@ export default withMT({
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
-  },
   plugins: [],
 });
+

@@ -1,19 +1,3 @@
-export const certificates=[
-    "Smart Interviews - Smart Coder",
-    "MakeSkilled - Full Stack Developer",
-    "Udemy - PostgreSQL",
-    "Makeskilled - Machine Learning",
-    "Cambridge One - Linguaskills",
-    "IBM - Python for IBM Data Science",
-    "Hacker Rank - Problem Solving(basic), SQL",
-    "IBM - Introduction to Artificial Intelligence",
-]
-
-
-
-
-
-
 
 export const edu_details=[
     {
@@ -43,6 +27,71 @@ export const edu_details=[
         img_name: "school"
     },
 ]
+
+
+export const certificates = [
+    {
+        title:"Smart Interviews - Smart Coder",
+        img_name: "Coder-SI.png",
+        description: "Successfully completed the Smart Interviews program, gaining in-depth knowledge of Data Structures and Algorithms. Learned to approach problems from brute-force to optimized solutions with industry-standard techniques. Regularly practiced coding problems on platforms like LeetCode, HackerRank, CodeChef, Hive, and GeeksforGeeks, enhancing problem-solving efficiency and coding proficiency. Achieved a 'Smart Coder' certification with a global rank of 3363 out of 32,725 participants."
+    },
+    {
+        title:"APTPOs & CVCorp Coding Hackathon-2024",
+        img_name: "CVCorp.jpg",
+        description: "Participated in the state-level APTPOs & CVCorp Coding Hackathon 2024, which saw over 4,500 students from across multiple districts. Advanced through three competitive rounds to reach the Grand Finale, held at G. Pulla Reddy Engineering College, Kurnool. Secured a position in the Top 10 finalists and won a cash prize of ₹10,000 for innovative problem-solving."
+
+    },
+    {
+        title:"MakeSkilled - Full Stack Developer",
+        img_name: "FullStack-MakeSkilled.png",
+        description: "Completed a Full Stack Web Development internship at MakeSkilled from May 20 to June 25, 2023. Worked on the 'Blood Management System' project, gaining hands-on experience in frontend and backend technologies. Successfully cleared 30 assessments with a performance score of 92%. Delivered a fully functional web-based solution that demonstrated strong practical skills in designing and developing responsive user interfaces, server-side logic, and database integration."
+
+    },
+    {
+        title:"Udemy - PostgreSQL",
+        img_name: "PostgreSQL-Udemy.png",
+        description: "Completed a comprehensive PostgreSQL course on Udemy, covering fundamentals to advanced topics such as joins, indexing, constraints, and transactions. Gained practical experience by working on real-world database scenarios and mastering SQL query writing. Developed skills in database design, normalization, performance optimization, and managing relational data effectively."
+    },
+    {
+        title:"Makeskilled - Machine Learning",
+        img_name: "ML-MakeSkilled.png",
+        description: "Completed a Machine Learning internship at MakeSkilled, focusing on foundational to intermediate ML concepts. Learned key supervised and unsupervised algorithms along with essential data preprocessing techniques such as handling missing values, normalization, and encoding. As part of the capstone project, implemented an Iris Flower Classification model using scikit-learn, demonstrating the complete ML workflow from data cleaning to model evaluation."
+
+    },
+    {
+        title:"IBM - Python for IBM Data Science",
+        img_name: "Python-IBM.png",
+        description: "Completed the 'Python for Data Science' course by IBM, gaining foundational knowledge in Python programming tailored for data analysis and machine learning workflows. Covered key topics including Python syntax, data types, functions, file handling, and libraries like Pandas, NumPy, and Matplotlib. Built hands-on coding projects and exercises focused on data manipulation, visualization, and basic analytics, forming a strong base for further work in data science."
+
+    },
+    {
+        title:"Hacker Rank - Problem Solving(basic)",
+        img_name: "DSA-HR.png",
+        
+        description: "Earned the Problem Solving (Basic) certification from HackerRank by successfully completing a timed coding assessment. Demonstrated proficiency in solving algorithmic challenges involving loops, conditionals, arrays, and basic data structures using optimal approaches."
+
+    },
+    {
+        title:"IBM - Introduction to Artificial Intelligence",
+        img_name: "AI-IBM.png",
+        description: "Completed IBM’s 'Introduction to Artificial Intelligence' course, gaining a broad understanding of AI concepts, applications, and its impact across industries. Learned key areas including machine learning, deep learning, natural language processing (NLP), and computer vision. Explored real-world AI use cases and ethical considerations, forming a strong conceptual foundation for future specialization in AI-driven technologies."
+
+    },
+    {
+        title:"Hacker Rank - SQL",
+        img_name: "SQL-HR.png",
+        description: "Achieved the SQL certification from HackerRank by passing a structured coding assessment focused on database querying. Demonstrated strong skills in writing efficient SQL queries involving SELECT statements, JOINs, aggregations, filtering, subqueries, and data manipulation, reflecting a solid understanding of relational databases and query optimization."
+
+    },
+
+]
+
+
+
+
+
+
+
 
 
 
