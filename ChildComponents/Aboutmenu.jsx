@@ -28,7 +28,7 @@ function Aboutmenu({ name, active_button, onButtonClick }) {
 
     return (
         <div
-            className={`w-full md:w-48 mb-3 transition-transform transform hover:scale-105 ${
+            className={`w-34 md:w-48 mb-3 transition-transform transform hover:scale-105 ${
                 isActive
                     ? 'bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-xl'
                     : 'bg-white text-gray-800 border border-gray-300 shadow-sm hover:shadow-md'
