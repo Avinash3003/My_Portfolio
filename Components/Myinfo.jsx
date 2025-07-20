@@ -3,6 +3,7 @@
 
 import React from 'react';
 
+
 function Myinfo() {
   return (
     <div className='mt-10 md:mt-20 p-2'>
@@ -19,8 +20,8 @@ function Myinfo() {
           </p>
         </div>
 
-        <div className='w-60 h-60 mb-7 md:mb-0  md:w-90 md:h-90  bg-amber-300'>
-          <img src={""} />
+        <div className='w-50 h-60 mb-7 md:mb-0 md:w-70 md:h-80 bg-amber-300'>
+          <img className='object-fit w-50 h-60 md:w-70 md:h-80' src="Profile.png" alt="Profile"/>
         </div>
       </div>
     </div>

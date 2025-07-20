@@ -42,6 +42,12 @@ export const certificates = [
 
     },
     {
+        title:"GFG-MERN Stack developer",
+        img_name: "GFG-MERN.png",
+        description: "Completed a 2-month intensive Full Stack Web Development training by GeeksforGeeks, covering MERN stack and Git.Built and deployed projects like Flipkart Clone and Netflix Dashboard, and conducted training sessions during the program."
+
+    },
+    {
         title:"MakeSkilled - Full Stack Developer",
         img_name: "FullStack-MakeSkilled.png",
         description: "Completed a Full Stack Web Development internship at MakeSkilled from May 20 to June 25, 2023. Worked on the 'Blood Management System' project, gaining hands-on experience in frontend and backend technologies. Successfully cleared 30 assessments with a performance score of 92%. Delivered a fully functional web-based solution that demonstrated strong practical skills in designing and developing responsive user interfaces, server-side logic, and database integration."
@@ -198,5 +204,6 @@ export const skills = [
   "Artificial Intelligence",
   "Machine Learning",
   "Deep Learning",
-  "Power BI"
+  "Power BI",
+  "MySQL"
 ];
