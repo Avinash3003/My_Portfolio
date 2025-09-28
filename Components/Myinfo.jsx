@@ -13,7 +13,7 @@ function Myinfo() {
             I am Avinash
           </h1>
           <p className='text-xl bg-clip-text'>
-            Smart Coder | MERN Stack Developer | AI & ML Enthusiast | Power BI | Data Science
+            Data Science | AI,ML,DL | LLMs Enthusiast | MERN Stack | Smart Coder | Problem Solving | DSA | Databases
           </p>
         </div>
 
