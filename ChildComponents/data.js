@@ -31,6 +31,11 @@ export const edu_details=[
 
 export const certificates = [
     {
+        title:"DataScience-ExcelR",
+        img_name: "DataScience-ExcelR.png",
+        description: "Successfully completed an extensive Data Science program covering both foundational and advanced concepts. Gained in-depth knowledge of statistics, supervised and unsupervised learning algorithms including Linear Regression, OLS, SVM, KNN, Decision Trees, XGBoost, and LightGBM. Explored deep learning architectures such as ANN, CNN, RNN, and advanced topics like NLP, Transformers, and Time Series Analysis. Focused on model evaluation, optimization, and hyperparameter tuning techniques. Strengthened practical understanding of improving model performance and deploying efficient data-driven solutions."
+    },
+    {
         title:"Smart Interviews - Smart Coder",
         img_name: "Coder-SI.png",
         description: "Successfully completed the Smart Interviews program, gaining in-depth knowledge of Data Structures and Algorithms. Learned to approach problems from brute-force to optimized solutions with industry-standard techniques. Regularly practiced coding problems on platforms like LeetCode, HackerRank, CodeChef, Hive, and GeeksforGeeks, enhancing problem-solving efficiency and coding proficiency. Achieved a 'Smart Coder' certification with a global rank of 3363 out of 32,725 participants."
@@ -89,6 +94,12 @@ export const certificates = [
         description: "Achieved the SQL certification from HackerRank by passing a structured coding assessment focused on database querying. Demonstrated strong skills in writing efficient SQL queries involving SELECT statements, JOINs, aggregations, filtering, subqueries, and data manipulation, reflecting a solid understanding of relational databases and query optimization."
 
     },
+    {
+        title: "EDX - Machine Learning",
+        img_name: "EDX.png",
+        description: "Gained hands-on experience in building and deploying machine learning models on edge devices.Developed a strong understanding of applying AI concepts in real-world, resource-constrained environments.Explored key topics like model optimization, inference, and hardware acceleration for edge computing.Strengthened practical skills in integrating ML workflows."
+
+    }
 
 ]
 

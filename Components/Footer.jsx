@@ -20,7 +20,7 @@ function Footer() {
         <div className='ml- md:ml-25 text-lg text-center md:text-left'>
           <h1><EmailIcon /> avinashreddy5142@gmail.com</h1>
           <h1><CallIcon /> +91 9959363408</h1>
-          <a href="https://drive.google.com/file/d/1MahWDIqjVMPQSe8X3he52pr-2BP3hbj-/view?usp=sharing" 
+          <a href="https://drive.google.com/file/d/1sv2ZqveD9NJRXGwbmhFlM35MMS-yi5-a/view?usp=sharing" 
           target = "_blank"><PictureAsPdfIcon/> View <strong>Resume</strong> <OpenInNewIcon/></a>
         </div>
 
