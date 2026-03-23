@@ -31,9 +31,8 @@ function SummaryContent() {
     <div className='p-4 sm:p-6 pb-12 text-gray-800'>
       <div className='bg-white shadow-md rounded-xl p-6'>
         <h1 className='text-3xl font-serif sm:text-4xl font-semibold mb-4 text-blue-800'>Hi, I'm Avinash!</h1>
-        <p className='text-base sm:text-lg leading-relaxed text-left break-words hyphens-auto sm:break-normal sm:hyphens-none'>
-          I'm a 2025 graduate with a strong passion for technology and innovation. I take great satisfaction in my dedication to my work and ongoing exploration of my interests, particularly in the domains of data science, software development, and artificial intelligence.
-          I like using clever, scalable solutions to solve real-world issues, and I'm constantly willing to pick up new skills, adjust, and make a significant contribution to any team or project I work on.
+        <p className='text-base sm:text-lg leading-relaxed text-left break-words hyphens-auto sm:break-normal sm:hyphens-none text-slate-700'>
+          I'm a 2025 graduate and a passionate DevOps and Agentic AI enthusiast. I bring hands-on DataOps experience from my time at Sigmoid Analytics, where I worked extensively with modern cloud infrastructure like Azure, Linux, Docker, and Kubernetes. I am highly experienced in building intelligent, RAG-based AI systems utilizing tools like LangChain, HuggingFace, and ChromaDB. To complement my infrastructure and AI expertise, I securely leverage the MERN stack and FastAPI to develop, scale, and seamlessly deploy robust full-stack applications.
         </p>
 
         <h2 className='text-xl font-medium mt-8 mb-3 underline text-blue-700'>Hobbies:</h2>

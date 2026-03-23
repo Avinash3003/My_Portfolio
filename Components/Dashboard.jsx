@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 function Dashboard() {
   return (
-    <div className="min-h-screen bg-gray-200 flex flex-col px-4">
+    <div className='bg-gray-200 min-h-screen flex flex-col px-4 sm:px-8 md:px-12 lg:px-20 pt-6 pb-6 w-full overflow-y-scroll overflow-x-hidden box-border'>
       <Header />
       <Myinfo />
       <div className="mt-auto">

@@ -6,7 +6,7 @@ import Header from './Header';
 
 function Projects() {
   return (
-    <div className='bg-gray-200 px-4 sm:px-10 md:px-20 py-10'>
+    <div className='bg-gray-200 min-h-screen flex flex-col px-4 sm:px-8 md:px-12 lg:px-20 pt-6 pb-6 w-full overflow-y-scroll overflow-x-hidden box-border'>
       <Header />
       <h2 className='font-mono font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-600 text-center text-3xl md:text-4xl mt-8 md:mt-5'>
         Hands-on Projects

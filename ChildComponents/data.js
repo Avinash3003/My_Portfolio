@@ -105,20 +105,6 @@ export const certificates = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const projects=[
     {
         name:"Accident Detection and Emergency alert system",
@@ -197,25 +183,36 @@ export const projects=[
 
 
 export const skills = [
-  "Python",
-//   "Java",
-//   "C Programming",
-  "DSA",
-//   "Plotly",
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "MongoDB",
-  "ExpressJS",
-  "ReactJS",
-  "NodeJS",
-  "Postman APIs",
-  "MySQL",
-  "PostgreSQL",
-  "SQL",
-  "Artificial Intelligence",
-  "Machine Learning",
-  "Deep Learning",
-//   "Power BI",
- 
+  {
+    category: "Domains of Expertise",
+    items: ["DevOps", "Data Science",  "Generative AI","MERN Stack"]
+  },
+  {
+    category: "DevOps",
+    items: ["Docker", "Kubernetes","CI-CD", "Git","Linux", "Bash"]
+  },
+  {
+    category: "AI & Machine Learning",
+    items: ["AI Agents", "LLMs", "Deep Learning", "Machine Learning"]
+  },
+  {
+    category: "Cloud",
+    items: ["Azure", "Google Cloud"]
+  },
+  {
+    category: "Backend",
+    items: ["Python", "FastAPI", "NodeJS", "ExpressJS"]
+  },
+  {
+    category: "Frontend",
+    items: ["ReactJS","Tailwind CSS", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    category: "Databases",
+    items: ["SQL", "PostgreSQL", "MySQL"]
+  },
+  {
+    category: "Visualization",
+    items: ["Power BI", "Plotly"]
+  }
 ];

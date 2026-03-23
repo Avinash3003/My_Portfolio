@@ -87,7 +87,7 @@ function AcheivContent() {
 
           <div className='bg-white text-center p-4 rounded-xl shadow'>
             <h1 className='text-lg font-semibold text-purple-700'>📌 Solved DSA Problems in LeetCode</h1>
-            <p>Solved 250+ DSA problems in LeetCode.</p>
+            <p>Solved 300+ DSA problems in LeetCode.</p>
           </div>
 
           <div className='bg-white  text-center p-4 rounded-xl shadow'>
