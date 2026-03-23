@@ -198,12 +198,10 @@ export const projects=[
 
 export const skills = [
   "Python",
-  "Java",
-  "C Programming",
+//   "Java",
+//   "C Programming",
   "DSA",
-  "SQL",
-  "Plotly",
-  "PostgreSQL",
+//   "Plotly",
   "HTML",
   "CSS",
   "JavaScript",
@@ -212,9 +210,12 @@ export const skills = [
   "ReactJS",
   "NodeJS",
   "Postman APIs",
+  "MySQL",
+  "PostgreSQL",
+  "SQL",
   "Artificial Intelligence",
   "Machine Learning",
   "Deep Learning",
-  "Power BI",
-  "MySQL"
+//   "Power BI",
+ 
 ];
