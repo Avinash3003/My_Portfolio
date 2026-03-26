@@ -11,7 +11,7 @@ function Header() {
             <Nav onclick={() => navigate('/')} name="HOME" />
             <Nav onclick={() => navigate('/about')} name="ABOUT ME" />
             <Nav onclick={() => navigate('/projects')} name="PROJECTS" />
-            <Nav onclick={() => navigate('/edu')} name="EDUCATION" />
+            <Nav onclick={() => navigate('/experience')} name="EXPERIENCE" />
         </div>
     );
 }

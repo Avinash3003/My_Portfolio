@@ -216,3 +216,41 @@ export const skills = [
     items: ["Power BI", "Plotly"]
   }
 ];
+
+export const experience = [
+    {
+        role: "DataOps Intern",
+        company: "Sigmoid Analytics",
+        duration: "Dec 2025 - Present",
+        startDate: "2025-12-01",
+        endDate: "Present",
+        details: [
+            "Streamlined data operations and file handling using Linux and Bash automation.",
+            "Engineered a robust S3-compatible object storage service leveraging FastAPI and Boto3 with full bucket CRUD capabilities.",
+            "Containerized applications with Docker and managed deployment orchestration via Kubernetes."
+        ]
+    },
+    {
+        role: "Data Science Intern",
+        company: "AI Variant",
+        duration: "Oct 2025 - Dec 2025",
+        startDate: "2025-10-01",
+        endDate: "2025-12-01",
+        details: [
+            "Developed and evaluated advanced time-series forecasting models (ARIMA, XGBoost, LSTM) to accurately predict stock market pricing trends.",
+            "Conducted extensive exploratory data analysis and feature engineering to optimize computational model accuracy.",
+            "Designed and deployed a highly interactive Streamlit web dashboard to deliver final predictive findings."
+        ]
+    },
+    {
+        role: "Full Stack Intern",
+        company: "MakeSkilled",
+        duration: "May 2023 - Jun 2023",
+        startDate: "2023-05-01",
+        endDate: "2023-06-01",
+        details: [
+            "Architected a comprehensive full-stack Blood Management System using the MERN stack.",
+            "Designed secure user authentication workflows, real-time blood request routing mechanisms, and a centralized admin dashboard for inventory management."
+        ]
+    }
+];
