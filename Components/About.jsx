@@ -60,6 +60,7 @@ import SummaryContent from '../ChildComponents/SummaryContent'
 import SkillsContent from '../ChildComponents/SkillsContent'
 import CertiContent from '../ChildComponents/CertiContent'
 import AcheivContent from '../ChildComponents/AcheivContent'
+import EduContent from '../ChildComponents/EduContent'
 
 function About() {
     const [active, setActive] = useState("Summary")
@@ -69,7 +70,7 @@ function About() {
     }
 
     return (
-        <div className='p-4 sm:p-6 md:p-8 bg-slate-100 min-h-screen'>
+        <div className='bg-slate-100 min-h-screen flex flex-col px-4 sm:px-8 md:px-12 lg:px-20 pt-6 pb-6 w-full overflow-y-scroll overflow-x-hidden box-border'>
             <Header />
             <div className='flex flex-col md:flex-row justify-evenly gap-6 md:gap-10 md:mt-10'>
 
@@ -79,6 +80,7 @@ function About() {
                     <Aboutmenu onButtonClick={handleClick} active_button={active} name="Skills" />
                     <Aboutmenu onButtonClick={handleClick} active_button={active} name="Certifications" />
                     <Aboutmenu onButtonClick={handleClick} active_button={active} name="Acheivements" />
+                    <Aboutmenu onButtonClick={handleClick} active_button={active} name="Education" />
                 </div>
 
                 {/* Content container */}
@@ -89,6 +91,7 @@ function About() {
                         {active === "Skills" && <SkillsContent />}
                         {active === "Certifications" && <CertiContent />}
                         {active === "Acheivements" && <AcheivContent />}
+                        {active === "Education" && <EduContent />}
                     </div>
 
                     {/* Bottom scroll fade */}

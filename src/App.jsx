@@ -14,7 +14,7 @@ function App() {
                     <Route path="/" element={<Dashboard/>}/>
                     <Route path="about" element={<About/>}/>
                     <Route path="projects" element={<Projects/>}/>
-                    <Route path="edu" element={<Education/>}/>
+                    <Route path="experience" element={<Education/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

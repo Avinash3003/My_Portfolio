@@ -105,20 +105,6 @@ export const certificates = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const projects=[
     {
         name:"Accident Detection and Emergency alert system",
@@ -197,24 +183,74 @@ export const projects=[
 
 
 export const skills = [
-  "Python",
-  "Java",
-  "C Programming",
-  "DSA",
-  "SQL",
-  "Plotly",
-  "PostgreSQL",
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "MongoDB",
-  "ExpressJS",
-  "ReactJS",
-  "NodeJS",
-  "Postman APIs",
-  "Artificial Intelligence",
-  "Machine Learning",
-  "Deep Learning",
-  "Power BI",
-  "MySQL"
+  {
+    category: "Domains of Expertise",
+    items: ["DevOps", "Data Science",  "Generative AI","MERN Stack"]
+  },
+  {
+    category: "DevOps",
+    items: ["Docker", "Kubernetes","CI-CD", "Git","Linux", "Bash"]
+  },
+  {
+    category: "AI & Machine Learning",
+    items: ["AI Agents", "LLMs", "Deep Learning", "Machine Learning"]
+  },
+  {
+    category: "Cloud",
+    items: ["Azure", "Google Cloud"]
+  },
+  {
+    category: "Backend",
+    items: ["Python", "FastAPI", "NodeJS", "ExpressJS"]
+  },
+  {
+    category: "Frontend",
+    items: ["ReactJS","Tailwind CSS", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    category: "Databases",
+    items: ["SQL", "PostgreSQL", "MySQL"]
+  },
+  {
+    category: "Visualization",
+    items: ["Power BI", "Plotly"]
+  }
+];
+
+export const experience = [
+    {
+        role: "DataOps Intern",
+        company: "Sigmoid Analytics",
+        duration: "Dec 2025 - Present",
+        startDate: "2025-12-01",
+        endDate: "Present",
+        details: [
+            "Streamlined data operations and file handling using Linux and Bash automation.",
+            "Engineered a robust S3-compatible object storage service leveraging FastAPI and Boto3 with full bucket CRUD capabilities.",
+            "Containerized applications with Docker and managed deployment orchestration via Kubernetes."
+        ]
+    },
+    {
+        role: "Data Science Intern",
+        company: "AI Variant",
+        duration: "Oct 2025 - Dec 2025",
+        startDate: "2025-10-01",
+        endDate: "2025-12-01",
+        details: [
+            "Developed and evaluated advanced time-series forecasting models (ARIMA, XGBoost, LSTM) to accurately predict stock market pricing trends.",
+            "Conducted extensive exploratory data analysis and feature engineering to optimize computational model accuracy.",
+            "Designed and deployed a highly interactive Streamlit web dashboard to deliver final predictive findings."
+        ]
+    },
+    {
+        role: "Full Stack Intern",
+        company: "MakeSkilled",
+        duration: "May 2023 - Jun 2023",
+        startDate: "2023-05-01",
+        endDate: "2023-06-01",
+        details: [
+            "Architected a comprehensive full-stack Blood Management System using the MERN stack.",
+            "Designed secure user authentication workflows, real-time blood request routing mechanisms, and a centralized admin dashboard for inventory management."
+        ]
+    }
 ];

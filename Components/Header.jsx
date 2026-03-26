@@ -7,11 +7,11 @@ function Header() {
     const navigate = useNavigate();
 
     return (
-        <div className='h-auto flex flex-wrap justify-end md:pr-30 mt-6 gap-4 md:gap-8'>
+        <div className='w-full flex flex-wrap justify-center sm:justify-end gap-3 sm:gap-6 md:gap-8 mb-6 sm:mb-10'>
             <Nav onclick={() => navigate('/')} name="HOME" />
             <Nav onclick={() => navigate('/about')} name="ABOUT ME" />
             <Nav onclick={() => navigate('/projects')} name="PROJECTS" />
-            <Nav onclick={() => navigate('/edu')} name="EDUCATION" />
+            <Nav onclick={() => navigate('/experience')} name="EXPERIENCE" />
         </div>
     );
 }
