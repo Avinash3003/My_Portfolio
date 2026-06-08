@@ -28,7 +28,7 @@ function Footer() {
         <div className='text-base md:text-lg text-center md:text-left flex flex-col gap-2'>
           <h1><EmailIcon className="mr-2 text-indigo-700"/> avinashreddy5142@gmail.com</h1>
           <h1><CallIcon className="mr-2 text-indigo-700"/> +91 9959363408</h1>
-          <a href="https://drive.google.com/file/d/1o0aKv5sESqv-osveC1zwKbU0dE2YgfKn/view?usp=sharing" 
+          <a href="https://drive.google.com/file/d/1XwecGhoSfn8fwbtM_yFzMrcR0iVN6U10/view?usp=sharing" 
           target="_blank" rel="noreferrer" className="flex items-center justify-center md:justify-start hover:text-indigo-600 transition-colors mt-2">
              <PictureAsPdfIcon className="mr-2 text-red-600"/> View <strong className="ml-1">Resume</strong> <OpenInNewIcon fontSize="small" className="ml-1"/>
           </a>
